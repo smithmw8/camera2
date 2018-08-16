@@ -1,0 +1,4 @@
+sceneSetups:
+- path: Assets/FunnyCamera/Scenes/FunnyCamera_Project.unity
+  isLoaded: 1
+  isActive: 1

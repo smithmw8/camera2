@@ -1,0 +1,836 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &181458
+GameObject:
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  serializedVersion: 5
+  m_Component:
+  - component: {fileID: 408304}
+  - component: {fileID: 11406234}
+  m_Layer: 0
+  m_Name: FrameAtlas
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &408304
+Transform:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181458}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &11406234
+MonoBehaviour:
+  m_ObjectHideFlags: 1
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 100100000}
+  m_GameObject: {fileID: 181458}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 2f007d87591f9f140b905391a90f3198, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  s_itemFoldouts: 00000000000000000000000000000000
+  s_items:
+  - name: 1M
+    Mode: 1
+    texWidth: 271
+    texHeight: 278
+    LeftBorder: 132
+    RightBorder: 132
+    TopBorder: 132
+    BottomBorder: 132
+  - name: 4M
+    Mode: 2
+    texWidth: 206
+    texHeight: 205
+    LeftBorder: 80
+    RightBorder: 79
+    TopBorder: 80
+    BottomBorder: 79
+  - name: 5M
+    Mode: 2
+    texWidth: 206
+    texHeight: 207
+    LeftBorder: 81
+    RightBorder: 81
+    TopBorder: 80
+    BottomBorder: 80
+  - name: 6M
+    Mode: 2
+    texWidth: 190
+    texHeight: 190
+    LeftBorder: 76
+    RightBorder: 76
+    TopBorder: 74
+    BottomBorder: 74
+  - name: 9M
+    Mode: 1
+    texWidth: 200
+    texHeight: 200
+    LeftBorder: 62
+    RightBorder: 62
+    TopBorder: 62
+    BottomBorder: 62
+  - name: 10M
+    Mode: 1
+    texWidth: 200
+    texHeight: 200
+    LeftBorder: 54
+    RightBorder: 54
+    TopBorder: 54
+    BottomBorder: 54
+  - name: 12M
+    Mode: 2
+    texWidth: 303
+    texHeight: 303
+    LeftBorder: 110
+    RightBorder: 104
+    TopBorder: 110
+    BottomBorder: 104
+  - name: 13M
+    Mode: 1
+    texWidth: 200
+    texHeight: 200
+    LeftBorder: 91
+    RightBorder: 90
+    TopBorder: 91
+    BottomBorder: 90
+  - name: 42M
+    Mode: 1
+    texWidth: 200
+    texHeight: 200
+    LeftBorder: 90
+    RightBorder: 90
+    TopBorder: 90
+    BottomBorder: 90
+  - name: 108M
+    Mode: 2
+    texWidth: 256
+    texHeight: 256
+    LeftBorder: 106
+    RightBorder: 106
+    TopBorder: 106
+    BottomBorder: 106
+  - name: 109M
+    Mode: 2
+    texWidth: 159
+    texHeight: 159
+    LeftBorder: 56
+    RightBorder: 56
+    TopBorder: 57
+    BottomBorder: 54
+  - name: 119M
+    Mode: 2
+    texWidth: 313
+    texHeight: 309
+    LeftBorder: 132
+    RightBorder: 132
+    TopBorder: 132
+    BottomBorder: 132
+  - name: 162M
+    Mode: 2
+    texWidth: 156
+    texHeight: 156
+    LeftBorder: 55
+    RightBorder: 55
+    TopBorder: 55
+    BottomBorder: 55
+  - name: 163M
+    Mode: 2
+    texWidth: 256
+    texHeight: 256
+    LeftBorder: 102
+    RightBorder: 100
+    TopBorder: 102
+    BottomBorder: 102
+  - name: 164M
+    Mode: 2
+    texWidth: 200
+    texHeight: 200
+    LeftBorder: 80
+    RightBorder: 80
+    TopBorder: 80
+    BottomBorder: 80
+  - name: 165M
+    Mode: 2
+    texWidth: 158
+    texHeight: 157
+    LeftBorder: 55
+    RightBorder: 55
+    TopBorder: 55
+    BottomBorder: 55
+  s_TexList:
+  - {fileID: 2800000, guid: c6c4ae2c121558645a70000de25975ed, type: 3}
+  - {fileID: 2800000, guid: 3f511f04fcadac748a66cad711059a2c, type: 3}
+  - {fileID: 2800000, guid: b0f6595367ed1714d8c6db097288e557, type: 3}
+  - {fileID: 2800000, guid: 02da2a39145a8e04ab312c6571479cf4, type: 3}
+  - {fileID: 2800000, guid: c21e64c60b0657e459f7d80d6d0c0488, type: 3}
+  - {fileID: 2800000, guid: 6b45644e5e8ef4e46811664466f43114, type: 3}
+  - {fileID: 2800000, guid: fb927fb581f81af43b652a533a7dff20, type: 3}
+  - {fileID: 2800000, guid: e0a6423a487c91349a27585a391ac527, type: 3}
+  - {fileID: 2800000, guid: f6718de572867b442b0cb5c7203df64c, type: 3}
+  - {fileID: 2800000, guid: 3c76412c69d51a74e9fe998fc803c8d4, type: 3}
+  - {fileID: 2800000, guid: f6ec6e42e1008d64baf8d7c8c5718915, type: 3}
+  - {fileID: 2800000, guid: 6d5356e6193585a4d9cf12e7acd507a9, type: 3}
+  - {fileID: 2800000, guid: 23ed0e246976313499fb283c864cb5ce, type: 3}
+  - {fileID: 2800000, guid: 6655cd62b786f314fa97e942ea865f7e, type: 3}
+  - {fileID: 2800000, guid: ca91a4a0118755a46b0bfea72ccd8355, type: 3}
+  - {fileID: 2800000, guid: 58b8785cd9130804682ede33ea81258c, type: 3}
+--- !u!1001 &100100000
+Prefab:
+  m_ObjectHideFlags: 1
+  serializedVersion: 2
+  m_Modification:
+    m_TransformParent: {fileID: 0}
+    m_Modifications:
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.size
+      value: 16
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[3]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[3].LeftBorder
+      value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[0]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[0].name
+      value: 1M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[0].texWidth
+      value: 271
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[0].texHeight
+      value: 278
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[0]
+      value: 
+      objectReference: {fileID: 2800000, guid: c6c4ae2c121558645a70000de25975ed, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[1]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[2]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[1].name
+      value: 4M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[1].texWidth
+      value: 206
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[1].texHeight
+      value: 205
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[1]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3f511f04fcadac748a66cad711059a2c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[1].LeftBorder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[1].RightBorder
+      value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[1].BottomBorder
+      value: 79
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[1].TopBorder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[2].name
+      value: 5M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[2].texWidth
+      value: 206
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[2].texHeight
+      value: 207
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[2]
+      value: 
+      objectReference: {fileID: 2800000, guid: b0f6595367ed1714d8c6db097288e557, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[2].BottomBorder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[2].TopBorder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[2].LeftBorder
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[2].RightBorder
+      value: 81
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[3].name
+      value: 6M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[3].texWidth
+      value: 190
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[3].texHeight
+      value: 190
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[3]
+      value: 
+      objectReference: {fileID: 2800000, guid: 02da2a39145a8e04ab312c6571479cf4, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[3].RightBorder
+      value: 76
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[3].TopBorder
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[3].BottomBorder
+      value: 74
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[4]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[4].name
+      value: 9M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[4].texWidth
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[4].texHeight
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[4]
+      value: 
+      objectReference: {fileID: 2800000, guid: c21e64c60b0657e459f7d80d6d0c0488, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[4].LeftBorder
+      value: 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[4].RightBorder
+      value: 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[4].TopBorder
+      value: 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[4].BottomBorder
+      value: 62
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[5]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[5].name
+      value: 10M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[5].texWidth
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[5].texHeight
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[5]
+      value: 
+      objectReference: {fileID: 2800000, guid: 6b45644e5e8ef4e46811664466f43114, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[5].LeftBorder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[5].RightBorder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[5].BottomBorder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[5].TopBorder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[6]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[6].name
+      value: 12M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[6].texWidth
+      value: 303
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[6].texHeight
+      value: 303
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[6]
+      value: 
+      objectReference: {fileID: 2800000, guid: fb927fb581f81af43b652a533a7dff20, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[6].LeftBorder
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[6].RightBorder
+      value: 104
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[6].BottomBorder
+      value: 104
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[6].TopBorder
+      value: 110
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[7]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[7].name
+      value: 13M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[7].texWidth
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[7].texHeight
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[7]
+      value: 
+      objectReference: {fileID: 2800000, guid: e0a6423a487c91349a27585a391ac527, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[7].LeftBorder
+      value: 91
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[7].RightBorder
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[7].TopBorder
+      value: 91
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[7].BottomBorder
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[8]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[8].name
+      value: 42M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[8].texWidth
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[8].texHeight
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[8]
+      value: 
+      objectReference: {fileID: 2800000, guid: f6718de572867b442b0cb5c7203df64c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[8].LeftBorder
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[8].TopBorder
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[8].BottomBorder
+      value: 90
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[9]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[9].name
+      value: 108M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[9].texWidth
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[9].texHeight
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[9]
+      value: 
+      objectReference: {fileID: 2800000, guid: 3c76412c69d51a74e9fe998fc803c8d4, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[9].LeftBorder
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[9].TopBorder
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[9].BottomBorder
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[9].RightBorder
+      value: 106
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[10]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[10].name
+      value: 109M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[10].texWidth
+      value: 159
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[10].texHeight
+      value: 159
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[10]
+      value: 
+      objectReference: {fileID: 2800000, guid: f6ec6e42e1008d64baf8d7c8c5718915, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[10].LeftBorder
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[10].RightBorder
+      value: 56
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[10].BottomBorder
+      value: 54
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[10].TopBorder
+      value: 57
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[11]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[11].name
+      value: 119M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[11].texWidth
+      value: 313
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[11].texHeight
+      value: 309
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[11]
+      value: 
+      objectReference: {fileID: 2800000, guid: 6d5356e6193585a4d9cf12e7acd507a9, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[11].LeftBorder
+      value: 132
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[11].TopBorder
+      value: 132
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[11].BottomBorder
+      value: 132
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[11].RightBorder
+      value: 132
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[12]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[12].name
+      value: 162M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[12].texWidth
+      value: 156
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[12].texHeight
+      value: 156
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[12]
+      value: 
+      objectReference: {fileID: 2800000, guid: 23ed0e246976313499fb283c864cb5ce, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[12].LeftBorder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[12].RightBorder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[12].BottomBorder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[12].TopBorder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[13]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[13].name
+      value: 163M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[13].texWidth
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[13].texHeight
+      value: 256
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[13]
+      value: 
+      objectReference: {fileID: 2800000, guid: 6655cd62b786f314fa97e942ea865f7e, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[13].LeftBorder
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[13].TopBorder
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[13].BottomBorder
+      value: 102
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[13].RightBorder
+      value: 100
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[14]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[14].name
+      value: 164M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[14].texWidth
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[14].texHeight
+      value: 200
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[14]
+      value: 
+      objectReference: {fileID: 2800000, guid: ca91a4a0118755a46b0bfea72ccd8355, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[14].LeftBorder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[14].RightBorder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[14].BottomBorder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[14].TopBorder
+      value: 80
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_itemFoldouts.Array.data[15]
+      value: 0
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[15].name
+      value: 165M
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[15].texWidth
+      value: 158
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[15].texHeight
+      value: 157
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_TexList.Array.data[15]
+      value: 
+      objectReference: {fileID: 2800000, guid: 58b8785cd9130804682ede33ea81258c, type: 3}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[15].LeftBorder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[15].RightBorder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[15].BottomBorder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[15].TopBorder
+      value: 55
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[0].Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[1].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[2].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[3].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[4].Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[5].Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[6].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[7].Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[8].Mode
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[9].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[10].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[11].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[12].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[13].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[14].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[15].Mode
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 0}
+      propertyPath: s_items.Array.data[8].RightBorder
+      value: 90
+      objectReference: {fileID: 0}
+    m_RemovedComponents: []
+  m_ParentPrefab: {fileID: 0}
+  m_RootGameObject: {fileID: 181458}
+  m_IsPrefabParent: 1

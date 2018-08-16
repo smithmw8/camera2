@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!21 &2100000
+Material:
+  serializedVersion: 6
+  m_ObjectHideFlags: 0
+  m_PrefabParentObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_Name: Custom-Erosion
+  m_Shader: {fileID: 4800000, guid: 2b6f239972fe7784282cc1b671c749cf, type: 3}
+  m_ShaderKeywords: 
+  m_LightmapFlags: 5
+  m_EnableInstancingVariants: 0
+  m_DoubleSidedGI: 0
+  m_CustomRenderQueue: -1
+  stringTagMap: {}
+  disabledShaderPasses: []
+  m_SavedProperties:
+    serializedVersion: 3
+    m_TexEnvs:
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: 3ae9b3d7ab189864bb8c03a524b5ad8a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    m_Floats:
+    - Angle: 0.58931154
+    - AngleMin: -1.8285714
+    - AngleWidth: 1.2571428
+    - CenterX: 0.16071431
+    - CenterY: 0.5
+    - ImageHeight: 480
+    - ImageWidth: 640
+    - PixelSizeX: 0.1
+    - PixelSizeY: 0.1
+    - Radius: -6785.393
+    - RadiusMin: 1.5
+    - RadiusWidth: 1.6214286
+    - _Rotation: 0
+    - _Scale: 0.71428573
+    - _ScreenX: 0.8
+    - _ScreenY: 0.8
+    - _Slider: -1.4285715
+    - _isFlip: 1
+    - _pixel_h: 0.8
+    - _pixel_w: 0.8
+    - _rt_h: 0.8
+    - _rt_w: 0.8
+    - _vx_offset: 0.8
+    - offsetX: 0.005892857
+    - offsetY: 0
+    - pixel_h: 10
+    - pixel_w: 15
+    - rt_h: 480
+    - rt_w: 640
+    - vx_offset: 0.8
+    m_Colors:
+    - _Color: {r: 1, g: 1, b: 1, a: 1}
