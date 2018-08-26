@@ -1,1 +1,4 @@
-sceneSetups: []
+sceneSetups:
+- path: C:/Users/Marshall/Documents/White Hot Studios/Projects/Halo/BF/gitUnity/blockfight-unity/BlockFight/Assets/Scenes/Main.unity
+  isLoaded: 1
+  isActive: 1
