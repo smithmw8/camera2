@@ -1,32 +1,25 @@
-﻿using UnityEngine;
-using System.Collections;
+﻿using System.Collections;
+using System.Collections.Generic;
+using UnityEngine;
+
 
 public class Main : MonoBehaviour {
 
-    public float speed;
-    public float rotationSpeed;
-    public GameObject cube;
-    public GameObject cubeSpin;
 
-    void Start ()
-    {
-       // rb = GetComponent<Rigidbody>();
-    }
+	public GameObject sphere; 
+	public float rotationSpeed;
 
-    void FixedUpdate ()
-    {
-       
-        cube.transform.position = cube.transform.position - Vector3.forward * speed;
-         cubeSpin.transform.Rotate(Vector3.right * Time.deltaTime * rotationSpeed);
+	// Use this for initialization
+	void Start () {
 
-            // Rotate the object around its local X axis at 1 degree per second
-        //transform.Rotate(Vector3.right * Time.deltaTime);
 
-        // ...also rotate around the World's Y axis
-      //  transform.Rotate(Vector3.up * Time.deltaTime, Space.World);
+	}
+	
+	// Update is called once per frame
+	void Update () {
+		
+		// Rotate the object around its local X axis at 1 degree per second
+        sphere.transform.Rotate(Vector3.up * Time.deltaTime * rotationSpeed);
 
-       // Vector3 movement = new Vector3 (moveHorizontal, 0.0f, moveVertical);
-
-        //rb.AddForce (movement * speed);
-    }
+	}
 }
