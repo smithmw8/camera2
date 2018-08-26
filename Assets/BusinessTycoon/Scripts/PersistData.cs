@@ -12,6 +12,7 @@ public class PersistData : MonoBehaviour
     private string GameFilePath;
     private string GameFileName;
     private bool gamePaused;
+    private bool resetData;
 
     public delegate void LoadDataComplete();
 
@@ -76,6 +77,13 @@ public class PersistData : MonoBehaviour
         instance.Save();
     }
 
+    void OnResetData()
+    {
+        Debug.Log("OnResetData");
+        CreateDefaultGameData();
+        instance.Save();
+    }
+
     void OnEnable()
     {
             instance.Load();
@@ -119,7 +127,9 @@ public class PersistData : MonoBehaviour
             var gameData = (GameDataModel)bf.Deserialize(file);
             file.Close();
 
-            if (string.IsNullOrEmpty(gameData.WorldName))
+            resetData = true;
+
+            if (string.IsNullOrEmpty(gameData.WorldName)||resetData)
             {
                 CreateDefaultGameData();
             }
@@ -311,7 +321,7 @@ public class PersistData : MonoBehaviour
         {
             WorldName = "Default",
             CurrencyName = "Dollars",
-            CurrentBalance = 3,
+            CurrentBalance = 300000000,
             TotalBalance = 0,
             TimeStamp = DateTime.Now,
             GameSettings = new GameSettingModel()
@@ -325,7 +335,7 @@ public class PersistData : MonoBehaviour
                 new BusinessModel
                 {
                     Id = 1,
-                    Name = "Paint shop",
+                    Name = "Rocket",
                     ImageName = "Paint",
                     BusinessCount = 1,
                     BaseCost = 4,
@@ -341,7 +351,7 @@ public class PersistData : MonoBehaviour
                 new BusinessModel
                 {
                     Id = 2,
-                    Name = "Lego shop",
+                    Name = "Drone",
                     ImageName = "Lego",
                     BusinessCount = 0,
                     BaseCost = 60,
@@ -482,6 +492,7 @@ public class PersistData : MonoBehaviour
                     CostMultiplier = 1.07f,
                     TimerDivision = 25
                 }
+
             },
             Managers = new List<ManagerModel>()
             {

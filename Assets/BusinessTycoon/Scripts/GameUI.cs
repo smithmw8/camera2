@@ -13,7 +13,8 @@ public class GameUI : MonoBehaviour
         Main,
         ManagerPanel,
         UpgradePanel,
-        WelcomeBackPanel
+        WelcomeBackPanel,
+        SettingsPanel
     }
 
     public Text CurrentBalanceText;
@@ -62,6 +63,12 @@ public class GameUI : MonoBehaviour
     public void UpgradeButtonClick()
     {
         CurrentState = State.UpgradePanel;
+        ShowDialog();
+    }
+
+    public void SettingsButtonClick()
+    {
+        CurrentState = State.SettingsPanel;
         ShowDialog();
     }
 

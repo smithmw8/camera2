@@ -313,6 +313,7 @@
     <Compile Include="Assets\BusinessTycoon\Scripts\MoneyFormat.cs" />
     <Compile Include="Assets\BusinessTycoon\Scripts\PersistData.cs" />
     <Compile Include="Assets\BusinessTycoon\Scripts\ProgressBar.cs" />
+    <Compile Include="Assets\RotateGameObject.cs" />
     <Compile Include="Assets\Scripts\Main.cs" />
   </ItemGroup>
   <ItemGroup>
