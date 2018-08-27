@@ -300,6 +300,7 @@
     </ProjectReference>
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="Assets\~ Remove\Scripts\Main.cs" />
     <Compile Include="Assets\BusinessTycoon\Scripts\BusinessHandler.cs" />
     <Compile Include="Assets\BusinessTycoon\Scripts\BusinessUI.cs" />
     <Compile Include="Assets\BusinessTycoon\Scripts\GameHandler.cs" />
@@ -359,7 +360,6 @@
     <Compile Include="Assets\PostProcessing\Runtime\Utils\RenderTextureFactory.cs" />
     <Compile Include="Assets\PostProcessing\Utilities\CustomMotionTexture\ExampleWheelController.cs" />
     <Compile Include="Assets\RotateGameObject.cs" />
-    <Compile Include="Assets\Scripts\Main.cs" />
   </ItemGroup>
   <ItemGroup>
     <None Include="Assets\PostProcessing\Editor Resources\Monitors\HistogramCompute.compute" />
