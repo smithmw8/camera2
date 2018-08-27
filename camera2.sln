@@ -3,6 +3,8 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 2017
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "camera2", "camera2.csproj", "{96682F87-A85D-99BC-1C19-8E24077769C4}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "camera2.Editor", "camera2.Editor.csproj", "{2BAFDDF7-6F87-6D60-B701-BCA413F2FFA3}"
+EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Unity.PackageManagerUI.Editor", "Unity.PackageManagerUI.Editor.csproj", "{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}"
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "UnityEditor.StandardEvents", "UnityEditor.StandardEvents.csproj", "{6800202F-4402-D405-F8CB-03DC7BD78B92}"
@@ -17,6 +19,10 @@ Global
 		{96682F87-A85D-99BC-1C19-8E24077769C4}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{96682F87-A85D-99BC-1C19-8E24077769C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{96682F87-A85D-99BC-1C19-8E24077769C4}.Release|Any CPU.Build.0 = Release|Any CPU
+		{2BAFDDF7-6F87-6D60-B701-BCA413F2FFA3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{2BAFDDF7-6F87-6D60-B701-BCA413F2FFA3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{2BAFDDF7-6F87-6D60-B701-BCA413F2FFA3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{2BAFDDF7-6F87-6D60-B701-BCA413F2FFA3}.Release|Any CPU.Build.0 = Release|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{6877705C-FBD9-0C4F-5AFB-6FB431E5D39D}.Release|Any CPU.ActiveCfg = Release|Any CPU
